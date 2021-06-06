@@ -28,6 +28,7 @@ struct fsm;
  *  fsm_print_rust   - Rust code
  *  fsm_print_sh     - Shell script (bash dialect)
  *  fsm_print_go     - Go code
+ *  fsm_print_go_poc - Go code proof-of-concept hack until capture groups implemented
  *
  * The output options may be NULL, indicating to use defaults.
  *
@@ -53,6 +54,7 @@ fsm_print fsm_print_vmasm_amd64_nasm; /* output amd64 assembler in NASM format *
 fsm_print fsm_print_vmasm_amd64_go;   /* output amd64 assembler in Go format */
 fsm_print fsm_print_sh;
 fsm_print fsm_print_go;
+fsm_print fsm_print_go_poc; /* output start, end of match */
 fsm_print fsm_print_rust;
 
 #endif

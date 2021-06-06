@@ -119,6 +119,7 @@ print_name(const char *name,
 		{ "rust",   fsm_print_rust,   NULL },
 		{ "sh",     fsm_print_sh,     NULL },
 		{ "go",     fsm_print_go,     NULL },
+		{ "go-poc", fsm_print_go_poc, NULL }, /* hack until capture groups implemented */
 
 		{ "amd64",      fsm_print_vmasm,            NULL },
 		{ "amd64_att",  fsm_print_vmasm_amd64_att,  NULL },

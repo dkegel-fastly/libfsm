@@ -167,6 +167,7 @@ print_name(const char *name)
 		{ "rust",  fsm_print_rust  },
 		{ "sh",    fsm_print_sh    },
 		{ "go",    fsm_print_go    },
+		{ "go-poc", fsm_print_go_poc }, /* hack until capture groups implemented */
 
 		{ "amd64",      fsm_print_vmasm            },
 		{ "amd64_att",  fsm_print_vmasm_amd64_att  },
